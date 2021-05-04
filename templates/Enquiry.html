@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Enquiry</title>
+</head>
+<body>
+<form action="Enquiry" method="post">
+    {% csrf_token %}
+    <input type="text" name="student_name" placeholder="student_name">
+    <input type="text" name="Course_name" placeholder="Course_name">
+    <input type="number" name="Contact_number" placeholder="Contact_number">
+    <input type="date" name="Enquiry_date" placeholder="Enquiry_date">
+    <input type="submit" value="Enquiry">
+
+</body>
+</html>

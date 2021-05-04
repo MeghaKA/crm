@@ -4,7 +4,7 @@ from django.shortcuts import render
 from django.shortcuts import render
 from django.db.models import Sum
 from django.http import JsonResponse
-from crm.models import Month,Sales
+from crm.models import Month,Sales,Enquiry
 
 def index(request):
      return render(request,"index.html")
